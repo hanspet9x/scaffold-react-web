@@ -1,0 +1,12 @@
+$fontFamily: 'Lato', sans-serif;
+
+.text {
+    font-family: $fontFamily;
+    font-size: 14px;
+}
+
+@mixin text {
+    font-family: $fontFamily;
+    font-size: 14px;
+    
+}
